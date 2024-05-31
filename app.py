@@ -13,7 +13,7 @@ st.sidebar.image(icon, width=300)
 st.subheader('PREDIKSI RUL BMS')
 
 # Input Voltage
-voltage = st.number_input('Masukkan Tegangan BMS (Volt)', min_value=0)
+voltage = st.number_input('Masukkan Tegangan BMS (Volt)', min_value=0.00)
 
 if voltage > 0: 
     capacity = vol_to_cap(voltage)
