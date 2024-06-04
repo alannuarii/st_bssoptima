@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import config.config
 import matplotlib.pyplot as plt
 from models.voltage_to_capacity.predict_capacity import vol_to_cap
 from models.capacity_to_rul.predict_rul import cap_to_rul
