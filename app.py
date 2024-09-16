@@ -30,7 +30,7 @@ rul = cap_to_rul(capacity)
     
 st.write(f"Capacity = {capacity:.2f}")
 st.write(f"RUL = {rul:.2f}")
-st.write(f"Usia = {month_year_converter(((rul - 1600) / 75))}")
+st.write(f"Usia = {month_year_converter(rul / 365)}")
 
 # Visualization
 plt.figure(figsize=(10, 6))
